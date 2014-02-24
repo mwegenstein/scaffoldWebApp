@@ -2,9 +2,9 @@
 
 angular.module('mytodoApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+    $scope.todos = [
+      'Item 1',
+      'Item 2',
+      'OHEMGEE Item 3!'
     ];
   });

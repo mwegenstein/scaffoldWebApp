@@ -20,7 +20,7 @@
     <input type="text" ng-model="todo" class="form-control">
     <span class="input-group-btn">
     	<button class="btn btn-danger" ng-click="removeTodo($index)" aria-label="Remove">X</button>
-    </span>
+    </span>  <!-- ng-click allows you to specify custom behaviours when an element is clicked. In this instance, we call removeTodo() and pass $index to the function. -->
   </p>
 </div>
 

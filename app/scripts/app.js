@@ -4,7 +4,8 @@ angular.module('mytodoApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'ui'
 ])
   .config(function ($routeProvider) {
     $routeProvider
